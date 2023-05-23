@@ -35,11 +35,11 @@ public class InventoryspringApplication {
 		service.addProduct(new Product("BlackBeast", "Computer", "White Table", 2020));
 
 
-		List<Product> AllProducts = service.getAllproducts();
-		for(Product p:AllProducts) {
-			System.out.println(p);
-		}
-		System.out.println("-----------------------------");
+//		List<Product> AllProducts = service.getAllproducts();
+//		for(Product p:AllProducts) {
+//			System.out.println(p);
+//		}
+//		System.out.println("-----------------------------");
 		Product prod = service.getProductByName("Mouse");
 		System.out.println(prod);
 		System.out.println("-----------------------------");
